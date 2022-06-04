@@ -1,1 +1,1 @@
-# OpenSourceSW_20194547_JangYunseo
+# 오픈소스 SW 개론 과제 #2
