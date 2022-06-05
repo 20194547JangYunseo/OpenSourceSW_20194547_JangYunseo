@@ -132,3 +132,21 @@ _이외에도 많은 옵션이 있지만, 실제로는 grep 명령어와 함께 
 
 |상태|설명|
 |:---:|:---:|
+|Running|작업이 일시 중단되지 않고, 계속 진행 중|
+|Done|작업이 완료되어 0을 반환하고 종료함|
+|Done(code)|작업이 정상적으로 종료되었으며, 0이 아닌 코드를 반환|
+|Stopped|작업 일시 중단|
+|Stopped(SIGTSTP)|SIGTSTP 신호가 작업 일시 중단함|
+|Stopped(SIGSTOP)|SIGSTOP 신호가 작업 일시 중단함|
+|Stopped(SIGTTIN)|SIGTTIN 신호가 작업 일시 중단함|
+|Stopped(SIGTTOU)|SIGTTOU 신호가 작업 일시 중단함|
+
+**jobs 옵션**
+
+|옵션|설명|
+|:---:|:---:|
+|-l|Process ID state 필드 앞에 출력|
+|-p|해당 작업의 대표 Process ID만 나열하여 한 행씩 출력|
+|-n|프로세스 그룹 중 대표 Process ID를 출력|
+|command|지정 명령어 실행|
+
